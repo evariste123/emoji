@@ -1,0 +1,32 @@
+button{
+    transition: border 3s;
+    position: inherit;
+    justify-self: normal;
+    border-radius: 5px;
+}
+button a{
+    background-color: aqua;
+    color: none;
+    width: none;
+    display: flex
+}
+button a :hover{
+    background-color: aqua;
+}
+search-box{
+    font-weight: 100;
+    font-family: sans-serif;
+    font-display: 0;
+    box-shadow: 0 2px;
+}
+search-box a{
+    background-color: blue;
+}
+search-a :hover{
+    box: sizing 20px;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+}
+.show{
+    display: none;
+}
